@@ -1,0 +1,30 @@
+@import "_colors.scss";
+
+@mixin horizontal-center {
+    max-width: 70%;
+    @media (max-width: 992px) {
+        max-width: 80%;
+    }
+    @media (max-width: 768px) {
+        max-width: 90%;
+    }
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@mixin white-container {
+    background-color: $color-secondary;
+    border-radius: 4px;
+}
+
+@mixin loading-animation {
+    background: linear-gradient(90deg, #ececec 8%, #f5f5f5 18%, #ececec 33%);
+    background-size: 200% 100%;
+    animation: 1.5s shine linear infinite;
+}
+
+@keyframes shine {
+    to {
+        background-position-x: -200%;
+    }
+}

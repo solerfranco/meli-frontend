@@ -1,0 +1,12 @@
+@import "_colors.scss";
+
+.breadcrum-container{
+    margin: 16px 0px 16px 0px;
+    font-size: 14px;
+    line-height: 14px;
+    color: $color-text-secondary;
+}
+
+.breadcrum-bold {
+    font-weight: bold;
+}

@@ -1,0 +1,5 @@
+@import "_mixins.scss";
+
+.body-container{
+    @include horizontal-center;
+}

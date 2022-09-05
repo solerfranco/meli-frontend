@@ -1,0 +1,26 @@
+@import "_mixins.scss";
+
+.not-found-container{
+    @include white-container;
+    padding: 64px 0px;
+    margin: 16px 0px;
+    text-align: center;
+}
+
+.not-found-title {
+    font-size: 24px;
+    line-height: 24px;
+    color: $color-text-primary;
+    margin-bottom: 16px;
+}
+
+.not-found-link{
+    font-size: 14px;
+    border: none;
+    background-color: transparent;
+    color: $color-blue;
+    cursor: pointer;
+    &:hover {
+        text-decoration: underline;
+    }
+}

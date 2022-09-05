@@ -1,0 +1,19 @@
+@import "_mixins.scss";
+
+.result-image-skeleton {
+    @include loading-animation;
+}
+
+.result-price-skeleton {
+    @include loading-animation;
+    height: 24px;
+    width: 200px;
+    border-radius: 4px;
+}
+
+.result-title-skeleton {
+    @include loading-animation;
+    margin-top: 16px;
+    height: 18px;
+    border-radius: 4px;
+}

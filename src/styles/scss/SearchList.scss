@@ -1,0 +1,5 @@
+@import "_mixins.scss";
+
+.search-list-container {
+    @include white-container;
+}
